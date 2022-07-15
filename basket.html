@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jsc/bootstrap.css">
+    <link rel="stylesheet" href="jsc/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-2">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="col-lg-10 text-end">
+                    <a href="basket.html">
+                        <i class="fa-solid fa-basket-shopping">
+                            <span id="count">0</span>
+                        </i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- <div class="container">
+        <div class="buttons mb-4">
+            <button id="btn_refresh" class="btn btn-primary"><i class="fa-solid fa-arrows-rotate"></i> Refresh</button>
+            <button id="btn_clear" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i> Clear All</button>
+        </div>
+    </div> -->
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>img</th>
+                <th>name</th>
+                <th>count</th>
+                <th>price</th>
+            </tr>
+        </thead>
+        <tbody id="seid">
+
+
+        </tbody>
+    </table>
+        
+
+
+
+
+    
+    <script src="jsc/basket.js"></script>
+    <script src="jsc/main.js"></script>
+</body>
+</html>
